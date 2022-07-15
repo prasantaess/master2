@@ -3,5 +3,48 @@
   <groupId>TestGIT</groupId>
   <artifactId>TestGIT</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+ 
+ <dependencies>
+ 
+ <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.6.1</version>
+    <scope>test</scope>
+</dependency>
+ 
+ <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.3.0</version>
+</dependency>
+ <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-server</artifactId>
+    <version>3.141.59</version>
+</dependency>
+ 
+<!-- https://mvnrepository.com/artifact/tech.grasshopper/extent-pdf-report -->
+<dependency>
+    <groupId>tech.grasshopper</groupId>
+    <artifactId>extent-pdf-report</artifactId>
+    <version>2.7.0</version>
+</dependency>
+
+ 
+ </dependencies>
+ 
+  <build>
+     
+   
+    
+     
+     
+    </build>
+ 
+ 
   
 </project>
